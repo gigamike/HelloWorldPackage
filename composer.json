@@ -1,0 +1,23 @@
+{
+    "name": "michaelgerardgalon/gigamike",
+    "authors": [
+        {
+            "name": "Michael Gerard Galon",
+            "email": "michael.gerard.galon@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4" : {
+        "Gigamike\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Gigamike\\": "tests"
+      }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
